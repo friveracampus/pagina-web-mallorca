@@ -1,0 +1,187 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #990000; /* Color rojo Mallorca */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.tarjeta {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 200px;
+    transition: transform 0.3s;
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+}
+
+.tarjeta img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.foto {
+    width: 300px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #990000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ffcc00;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#escudomallorca {
+    width: 100px;   
+    height: auto;  
+}
+.textosindex {
+    background-color: #990000; 
+    color: white;             
+    text-align: center;       
+    padding: 30px 20px;      
+    margin: 20px auto;       
+    border-radius: 10px;      
+}
+
+#imagenesindex {
+    text-align: center;  
+}
+
+#imagenesindex {
+    width: 300px;       
+    height: 200px;       
+    margin: 5px;         
+}
+#noticias {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f0f0f0;  /* Fondo gris claro */
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+#noticias ul {
+    list-style: none;  /* Sin viñetas */
+    padding: 0;
+}
+
+#noticias li {
+    margin-bottom: 20px;
+}
+
+#noticias strong {
+    display: block;
+    color: #990000; /* Rojo Mallorca */
+    margin-bottom: 8px;
+    font-size: 1.2em;
+}
+
+#noticias p {
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+
+
+
+
+
